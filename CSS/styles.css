@@ -94,11 +94,11 @@ background-position: 22px center;
 }
 
 #login{
-    background-image: url('/Assets/person.svg');
+    background-image: url('../Assets/person.svg');
 }
 
 #senha{
-    background-image: url('/Assets/encrypted.svg');
+    background-image: url('../Assets/encrypted.svg');
 }
 
 .inline{
@@ -130,7 +130,7 @@ background-position: 22px center;
  }
 
  .checkbox:checked{
-    background-image: url(/Assets/done.svg);
+    background-image: url(../Assets/done.svg);
     background-repeat: no-repeat;
     background-position: center;
  }
