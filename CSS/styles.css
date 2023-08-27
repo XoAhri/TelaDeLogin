@@ -23,8 +23,6 @@
 
 body{
     background-color: var(--background-primary);
-    justify-content: center;
-    align-items: center;
     color: var(--text-primary);
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
@@ -58,14 +56,12 @@ body{
 }
 
 .login-container{
-    display: inline-block;
     max-width: 400px;
     min-width: 300px;
     background-color: var(--background-secondary);
     border-radius: 0px 15px 15px 0px;
-    padding: 84px 10% 0px 10%;
-    justify-content: center;
-    align-items: center;
+    padding: 84px 10% 0px 5%;
+    
 }
 
 .login-container h1{
@@ -179,6 +175,60 @@ background-position: 22px center;
     }
     .login-container{
         border-radius: 15px;
-        width: 80%;
+        width: 100%;
         }
 }
+
+@media (max-width: 600px){
+   
+    body{
+        background-color: var(--background-secondary);
+    }
+    .container-principal{
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+        
+    }
+
+    .login-container{
+        max-width: 400px;
+        min-width: 100px;
+    }
+
+    .login-container h1{
+        font-size: 32px;
+    }
+
+    .input-login{
+        height: 16px;
+        font-size: 12px;
+        padding: 12px;
+        margin-top: 16px;
+        width: 90%;
+    }
+    #login{
+        background-image: none;
+    }
+    #senha{
+        background-image: none;
+    }
+    .inline{
+     }
+    .inline a, p{
+        font-size: 10px;
+     }
+     .checkbox{
+        width: 10px;
+        height: 10px;
+     }
+     .btn-entrar{
+        height: 40px;
+     }
+     .new-account{
+        font-size: 10px;
+     }
+}
+
+
+
